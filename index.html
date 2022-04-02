@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha !!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <table>
+            <tr>
+                <td class="home" id="0"></td>
+                <td class="home" id="1"></td>
+                <td class="home" id="2"></td>
+            </tr>
+            <tr>
+                <td class="home" id="3"></td>
+                <td class="home" id="4"></td>
+                <td class="home" id="5"></td>
+            </tr>
+            <tr>
+                <td class="home" id="6"></td>
+                <td class="home" id="7"></td>
+                <td class="home" id="8"></td>
+            </tr>
+            
+        </table>
+        <div id="player">
+            <p id="player1">Jogador: <div id="resp">O</div></p>
+        </div>
+        
+        <div id="gameOver">
+            <button onclick="Resetar()">Play again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
